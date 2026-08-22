@@ -5,8 +5,6 @@ function rollDice() {
     return randomNumber;
 }
 
-console.log("Dice Roll 1:", rollDice());
-console.log("Dice Roll 2:", rollDice());
-console.log("Dice Roll 3:", rollDice());
-console.log("Dice Roll 4:", rollDice());
-console.log("Dice Roll 5:", rollDice());
+for (let i = 1; i <= 5; i++) {
+    console.log("Dice Roll " + i + ":", rollDice());
+}
